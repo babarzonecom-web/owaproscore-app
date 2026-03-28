@@ -25,7 +25,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "owner": "joshinakayama",
+    "owner": "joshinakayamas-organization",
     "extra": {
       "eas": {
         "projectId": "90af4ee8-2c38-464d-a8d4-5e911013ad77"
