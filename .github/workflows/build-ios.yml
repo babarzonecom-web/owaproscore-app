@@ -18,11 +18,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Generate lockfile
-        run: npm install --package-lock-only
-
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Setup EAS
         uses: expo/expo-github-action@v8
