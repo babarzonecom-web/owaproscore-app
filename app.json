@@ -26,6 +26,15 @@
       "favicon": "./assets/favicon.png"
     },
     "owner": "joshinakayamas-organization",
+    "ios": {
+  "supportsTablet": true,
+  "bundleIdentifier": "com.joshinakayama.owaproscore",
+  "buildNumber": "1",
+  "infoPlist": {
+    "ITSAppUsesNonExemptEncryption": false
+  }
+}
+
     "extra": {
       "eas": {
         "projectId": "90af4ee8-2c38-464d-a8d4-5e911013ad77"
