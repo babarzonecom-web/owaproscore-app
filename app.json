@@ -25,16 +25,11 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      [
-        "expo-build-properties",
-        {
-          "ios": {
-            "deploymentTarget": "15.0"
-          }
-        }
-      ]
-    ],
-    "owner": "joshinakayama"
+    "owner": "joshinakayama",
+    "extra": {
+      "eas": {
+        "projectId": "90af4ee8-2c38-464d-a8d4-5e911013ad77"
+      }
+    }
   }
 }
