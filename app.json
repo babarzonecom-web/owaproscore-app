@@ -1,37 +1,13 @@
 {
-  "expo": {
-    "name": "おわプロスコア",
-    "slug": "owaproscore",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./icon.png",
-    "splash": {
-      "image": "./splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0a0f1e"
-    },
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.joshinakayama.owaproscore",
-      "buildNumber": "1",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./adaptive-icon.png",
-        "backgroundColor": "#0a0f1e"
-      },
-      "package": "com.joshinakayama.owaproscore"
-    },
-    "web": {
-      "favicon": "./favicon.png"
-    },
-    "owner": "joshinakayamas-organization",
-    "extra": {
-      "eas": {
-        "projectId": "90af4ee8-2c38-464d-a8d4-5e911013ad77"
+  "cli": {
+    "version": ">= 10.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
       }
     }
   }
