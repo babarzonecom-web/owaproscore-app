@@ -1,29 +1,14 @@
 {
-  "expo": {
-    "name": "おわプロスコア",
-    "slug": "owaproscore",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#0a0f1e"
-    },
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.joshinakayama.owaproscore",
-      "buildNumber": "1",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+  "cli": {
+    "version": ">= 10.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m-medium"
       }
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0a0f1e"
-      },
-      "package": "com.joshinakayama.owaproscore"
-    },
-    "web": {
-      "favicon​​​​​​​​​​​​​​​​
+    }
+  }
+}
