@@ -12,6 +12,24 @@
       "android": {
         "buildType": "apk"
       }
+    },
+    "production": {
+      "distribution": "store",
+      "ios": {
+        "resourceClass": "m-medium"
+      },
+      "android": {
+        "buildType": "aab"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "babarzone.com@gmail.com",
+        "ascAppId": "",
+        "appleTeamId": "BQ7B4J8XX4"
+      }
     }
   }
 }
