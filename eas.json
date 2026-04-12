@@ -19,7 +19,7 @@
         "resourceClass": "m-medium"
       },
       "android": {
-        "buildType": "aab"
+        "buildType": "app-bundle"
       }
     }
   },
@@ -28,8 +28,4 @@
       "ios": {
         "appleId": "babarzone.com@gmail.com",
         "ascAppId": "10045496646",
-        "appleTeamId": "BQ7B4J8XX4"
-      }
-    }
-  }
-}
+        "appleTeamId": "BQ7B4J8XX4"​​​​​​​​​​​​​​​​
