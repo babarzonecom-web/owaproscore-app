@@ -28,6 +28,6 @@ jobs:
           token: ${{ secrets.EXPO_TOKEN }}
 
       - name: Build iOS (production)
-        run: eas build --platform ios --profile production --non-interactive --auto-submit
+        run: eas build --platform ios --profile production --non-interactive
         env:
-          EXPO_APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD }}
+          EAS_NO_VCS: 1
