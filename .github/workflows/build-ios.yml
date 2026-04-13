@@ -32,3 +32,4 @@ jobs:
         env:
           EXPO_APPLE_ID: babarzone.com@gmail.com
           EXPO_APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD }}
+          EAS_BUILD_AUTOCOMMIT: 1
