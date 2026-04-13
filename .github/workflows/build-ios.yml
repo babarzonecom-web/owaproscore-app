@@ -30,4 +30,5 @@ jobs:
       - name: Build iOS (production)
         run: eas build --platform ios --profile production --non-interactive
         env:
-          EAS_NO_VCS: 1
+          EXPO_APPLE_ID: babarzone.com@gmail.com
+          EXPO_APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD }}
